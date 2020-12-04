@@ -43,6 +43,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation files('libs\\AMap3DMap_7.7.0_AMapNavi_7.7.1_AMapSearch_7.7.0_AMapTrack_1.3.0_AMapLocation_5.2.0_20201113.jar')
+    implementation 'androidx.navigation:navigation-fragment:2.3.2'
+    implementation 'androidx.navigation:navigation-ui:2.3.2'
     testImplementation 'junit:junit:4.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
