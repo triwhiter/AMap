@@ -36,7 +36,7 @@
 22-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:22-78
 23
 24    <application
-24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-33:19
+24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-35:19
 25        android:allowBackup="true"
 25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:19:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -54,24 +54,24 @@
 33        android:theme="@style/Theme.Linlinmap" >
 33-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:9-47
 34        <meta-data
-34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-108
+34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-108
 35            android:name="com.amap.api.v2.apikey"
-35-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:20-57
+35-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:20-57
 36            android:value="979a33347f3fa7b825361bca65f74c4e" />
-36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:58-106
+36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:58-106
 37
 38        <activity android:name="com.example.linlinmap.MainActivity" >
-38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-32:20
-38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:19-47
+38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-34:20
+38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:19-47
 39            <intent-filter>
-39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:13-31:29
+39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:13-33:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:17-69
-40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:25-66
+40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:17-69
+40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:17-77
-42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:27-74
+42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:17-77
+42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:27-74
 43            </intent-filter>
 44        </activity>
 45    </application>

@@ -6,14 +6,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+
+import androidx.annotation.ContentView;
 import androidx.annotation.NonNull;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
+
 
 import com.amap.api.maps.AMap;
+import com.amap.api.maps.CameraUpdateFactory;
 import com.amap.api.maps.MapView;
+import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.MyLocationStyle;
 import com.example.linlinmap.R;
 
@@ -21,20 +25,18 @@ import com.example.linlinmap.R;
 public class DashboardFragment extends Fragment {
 
     private MapView mapView;
-
+    private ImageView imageView;
     private AMap aMap;
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
 
-//        setContentView(R.layout.activity_main);
-//        //获取地图控件引用
-//        mapView = (MapView) findViewById(R.id.map);
-//        //在activity执行onCreate时执行mMapView.onCreate(savedInstanceState)，创建地图
-//        mapView.onCreate(savedInstanceState);
-//    }
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
 
@@ -47,9 +49,15 @@ public class DashboardFragment extends Fragment {
         // 显示实时交通状况
         aMap.setTrafficEnabled(true);
         //地图模式可选类型：MAP_TYPE_NORMAL,MAP_TYPE_SATELLITE,MAP_TYPE_NIGHT
-//        aMap.setMapType(AMap.MAP_TYPE_NORMAL);// 常规地图模式
+        aMap.setMapType(AMap.MAP_TYPE_NORMAL);// 常规地图模式
 //        aMap.setMapType(AMap.MAP_TYPE_SATELLITE);// 卫星地图模式
-        aMap.setMapType(AMap.MAP_TYPE_NIGHT);// 夜晚地图模式
+//        aMap.setMapType(AMap.MAP_TYPE_NIGHT);// 夜晚地图模式
+//        设置地图语言
+        aMap.setMapLanguage(AMap.CHINESE);
+//        默认经纬度 宜昌
+        LatLng latLng = new LatLng(30.7,111.28);
+//        放大倍数 10
+        aMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,10));
         //定位
         MyLocationStyle myLocationStyle = new MyLocationStyle();
         myLocationStyle.showMyLocation(true);
@@ -61,6 +69,10 @@ public class DashboardFragment extends Fragment {
 
         mapView.onCreate(savedInstanceState);
         return root;
+    }
+    @Override
+    public void onPause() {
+        super.onPause();
     }
 
 }

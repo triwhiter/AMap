@@ -1730,6 +1730,7 @@ id home
 id homeAsUp
 id honorRequest
 id icon
+id icon_f
 id icon_group
 id ifRoom
 id ignore
@@ -1751,7 +1752,6 @@ id linear
 id listMode
 id list_item
 id map
-id map_select
 id map_view
 id masked
 id message
@@ -1898,7 +1898,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id text_home
 id text_input_end_icon
 id text_input_start_icon
 id text_notifications

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\008ec55466b533a4287a416b1cceba7f\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\075c720154f374df8e9e8f076abae085\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\898751a70b9353b937edc6ec8d94c395\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -36,20 +36,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Alin\.gradle\cac
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\3483d0a75cce5f15e9d2474ee2352359\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\5627f868f4ea93de8a9e48f3a3d0f317\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\3c8b6eefbae7a069a0eef4c91795bd4c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-35:12
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:2:11-69
@@ -78,7 +78,7 @@ ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:5-81
 	android:name
 		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:22-78
 application
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-33:19
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-35:19
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\075c720154f374df8e9e8f076abae085\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\075c720154f374df8e9e8f076abae085\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\898751a70b9353b937edc6ec8d94c395\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -102,25 +102,25 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Al
 	android:theme
 		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:9-47
 meta-data#com.amap.api.v2.apikey
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-108
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-108
 	android:value
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:58-106
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:58-106
 	android:name
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:20-57
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:20-57
 activity#com.example.linlinmap.MainActivity
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-32:20
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-34:20
 	android:name
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml

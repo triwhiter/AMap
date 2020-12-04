@@ -22,8 +22,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Linlinmap">
+
         <meta-data android:name="com.amap.api.v2.apikey" android:value="979a33347f3fa7b825361bca65f74c4e"/>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
