@@ -760,6 +760,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable div_white
 drawable ic_directions_white_48dp
 drawable ic_map_black_48dp
 drawable ic_menu_black_48dp

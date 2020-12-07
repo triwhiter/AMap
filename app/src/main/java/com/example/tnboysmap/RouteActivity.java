@@ -64,7 +64,7 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
         PoiSearch.OnPoiSearchListener{
 
     private static final String MY_LOCATION="我的位置";
-    private static final String DRIVE_TAB="小车";
+    private static final String DRIVE_TAB="驾车";
     private static final String WALK_TAB="步行";
     private static final String RIDE_TAB="骑行";
     private static final String BUS_TAB="公交";
