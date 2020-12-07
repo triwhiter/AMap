@@ -27,7 +27,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value=""/> <!-- input your amap key -->
+            android:value="b9441ce996c021c9eca558b8815d5cbb"/> <!-- input your amap key -->
 
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait">

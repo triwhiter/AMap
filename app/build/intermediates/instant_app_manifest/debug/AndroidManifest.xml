@@ -6,8 +6,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="28"
-        android:targetSdkVersion="28" />
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -27,7 +27,6 @@
 
     <application
         android:allowBackup="false"
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:icon="@mipmap/ic_launcher"
@@ -38,7 +37,7 @@
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="" /> <!-- input your amap key -->
+            android:value="b9441ce996c021c9eca558b8815d5cbb" /> <!-- input your amap key -->
 
         <activity
             android:name="com.example.tnboysmap.MainActivity"
@@ -60,6 +59,10 @@
             android:screenOrientation="portrait" />
 
         <service android:name="com.amap.api.location.APSService" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

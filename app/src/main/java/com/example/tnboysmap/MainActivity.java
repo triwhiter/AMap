@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.FloatingActionButton;
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         GeocodeSearch.OnGeocodeSearchListener, NavigationView.OnNavigationItemSelectedListener,
         PoiSearch.OnPoiSearchListener {
 
-    private Marker marker=null;
+    private Marker marker=null;  // 地图标记
     private String marker_title=null;
     private String city=Constants.DEFAULT_CITY;
     private LatLng curLocation=null;
@@ -75,9 +74,9 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
     private TextView textName=null;
     private TextView textDistance=null;
     private DrawerLayout drawerLayout=null;
-    private FloatingActionButton locate=null;
-    private FloatingActionButton plan=null;
-    private TextView search=null;
+    private FloatingActionButton locate=null; // 定位按钮
+    private FloatingActionButton plan=null;  // 路线规划按钮
+    private TextView search=null;  // 搜索框
     private ImageButton menu=null;
     private NavigationView navigationView=null;
 
@@ -87,7 +86,8 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         setContentView(R.layout.activity_main);
         mapView=(MapView)findViewById(R.id.map_view);
         mapView.onCreate(savedInstanceState);
-        checkPermission();
+
+        checkPermission(); // 申请权限
     }
 
     //请求必要权限
@@ -118,9 +118,10 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
     }
 
     private void init(){
-        initLayout();
-        initMap();
+        initLayout(); //初始化页面
+        initMap(); //初始化地图
     }
+
 
     //初始化地图
     private void initMap(){
@@ -134,8 +135,9 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         myLocationStyle.myLocationType(MyLocationStyle.LOCATION_TYPE_LOCATION_ROTATE_NO_CENTER);
         myLocationStyle.strokeColor(Color.argb(0,0,0,0)).radiusFillColor(Color.argb(0,0,0,0)).
                 interval(10000);
-        aMap.setMyLocationStyle(myLocationStyle);
-        registerMapListener();
+        aMap.setMyLocationStyle(myLocationStyle); // 显示我的位置
+
+        registerMapListener(); //为地图注册监听器
     }
 
     //初始化界面
@@ -143,6 +145,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         locate = (FloatingActionButton) findViewById(R.id.fab_locate);
         plan = (FloatingActionButton) findViewById(R.id.fab_plan);
+
         textName = (TextView) findViewById(R.id.text_name);
         textName.setText("我的位置");
         textDistance = (TextView) findViewById(R.id.text_distance);
@@ -154,14 +157,15 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.navigate_view);
         navigationView.setCheckedItem(R.id.map_standard);
-        registerLayoutListener();
+
+        registerLayoutListener();//设置监听器
     }
 
     //为地图注册监听器
     private void registerMapListener(){
-        aMap.setMyLocationEnabled(true);
-        aMap.setOnMyLocationChangeListener(this);
-        aMap.setOnPOIClickListener(this);
+        aMap.setMyLocationEnabled(true); //显示我的位置 默认false
+        aMap.setOnMyLocationChangeListener(this); // 监听我的位置
+        aMap.setOnPOIClickListener(this); //点击地图上地点事件处理（点击地图出现标记等）
     }
 
     //为界面组件注册监听器
@@ -179,13 +183,12 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
             marker.remove();
         }
         marker = aMap.addMarker(new MarkerOptions().position(location).draggable(false));
-//        geocodeSearch(MapUtils.convertToLatLonPoint(location));
         marker_title = name;
         BottomSheetBehavior behavior = BottomSheetBehavior.from(bottomSheet);
         if (behavior.getState() == BottomSheetBehavior.STATE_COLLAPSED) {
             behavior.setState(BottomSheetBehavior.STATE_EXPANDED);
         }
-        textName.setText(marker_title);
+        textName.setText(marker_title); // 设置目标地点名称
         if (curLocation != null) {
             float distance = AMapUtils.calculateLineDistance(curLocation, location);
             textDistance.setText(String.format("%s",
@@ -262,7 +265,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
     public void onPOIClick(Poi poi) {
         setMarkerLayout(poi.getCoordinate(), poi.getName());
         aMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(poi.getCoordinate().latitude,
-                poi.getCoordinate().longitude)));
+                poi.getCoordinate().longitude))); //带有移动过程的动画
     }
 
     //用户当前定位返回处理
@@ -348,7 +351,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
 
     //返回键按下逻辑处理
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
+    public boolean onKeyDown(int keyCode, KeyEvent event){
         if(keyCode==KeyEvent.KEYCODE_BACK){
             doubleClickExit();
         }

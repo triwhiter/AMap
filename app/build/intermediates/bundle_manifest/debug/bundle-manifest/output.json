@@ -21,7 +21,7 @@
       "properties": {
         "packageId": "com.example.tnboysmap",
         "split": "",
-        "minSdkVersion": "28"
+        "minSdkVersion": "27"
       }
     }
   ]
