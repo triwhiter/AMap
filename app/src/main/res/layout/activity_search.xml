@@ -9,7 +9,8 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/bgb">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_search"

@@ -64,10 +64,10 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
         PoiSearch.OnPoiSearchListener{
 
     private static final String MY_LOCATION="我的位置";
-    private static final String DRIVE_TAB="Drive";
-    private static final String WALK_TAB="Walk";
-    private static final String RIDE_TAB="Ride";
-    private static final String BUS_TAB="Bus";
+    private static final String DRIVE_TAB="小车";
+    private static final String WALK_TAB="步行";
+    private static final String RIDE_TAB="骑行";
+    private static final String BUS_TAB="公交";
     private static final int DRIVE_MODE=0;
     private static final int WALK_MODE=1;
     private static final int RIDE_MODE=2;
@@ -151,7 +151,7 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
 
     //初始化地图
     private void initMap(){
-//        mapView.setVisibility(View.GONE);
+//
         if(aMap==null){
             aMap=mapView.getMap();
         }

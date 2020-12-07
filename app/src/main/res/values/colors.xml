@@ -5,5 +5,6 @@
   <color name="primary_light">#F5F5F5</color>
   <color name="accent">#607D8B</color>
   <color name="icons">#212121</color>
-  <color name="divider">#BDBDBD</color>
+  <color name="divider">#FFFFFF</color>
+  <color name="bgb">#1E6FFF</color>
 </resources>

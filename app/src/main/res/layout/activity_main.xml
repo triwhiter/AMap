@@ -33,17 +33,17 @@
                 <TextView
                     android:id="@+id/text_name"
                     android:layout_width="wrap_content"
-                    android:layout_height="43dp"
-                    android:textSize="20sp"
-                    android:gravity="center_vertical"
-                    android:paddingTop="10dp"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:layout_marginRight="80dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginEnd="80dp"
-                    android:textColor="#000000"
+                    android:layout_marginRight="80dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
                     android:maxLines="1"
-                    android:ellipsize="end"/>
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/text_distance"
@@ -62,12 +62,14 @@
             </LinearLayout>
 
         </android.support.v4.widget.NestedScrollView>
-
+        <!--悬浮按钮-->
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_plan"
+            android:backgroundTint="@color/bgb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:fabSize="normal"
+            app:fabSize="mini"
+            app:elevation="8dp"
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="48dp"
             android:layout_marginEnd="16dp"
@@ -79,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:fabSize="mini"
+            app:elevation="8dp"
             app:backgroundTint="#FFFFFF"
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="120dp"
@@ -101,7 +104,7 @@
                 android:layout_height="30dp"
                 android:scaleType="fitXY"
                 android:layout_margin="8dp"
-                android:background="@drawable/ic_menu_black_48dp"/>
+                android:background="@drawable/ic_menu_blue_48dp"/>
 
             <TextView
                 android:id="@+id/search"

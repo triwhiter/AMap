@@ -5,122 +5,127 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="28"
-8-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="28" />
-9-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="27"
+8-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:6:5-81
-12-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:6:22-78
+12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:7:5-79
-13-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:7:22-77
+13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:22-77
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:8:5-79
-14-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:8:22-76
+14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:22-76
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-15-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:9:5-76
-15-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:9:22-73
+15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:5-76
+15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:22-73
 16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-16-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:10:5-76
-16-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:10:22-73
+16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:5-76
+16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:22-73
 17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-17-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:11:5-75
-17-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:11:22-72
+17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:5-75
+17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:22-72
 18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-18-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:12:5-81
-18-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:12:22-78
+18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:5-81
+18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:22-78
 19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:13:5-79
-19-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:13:22-76
+19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:5-79
+19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:22-76
 20    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-20-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:14:5-89
-20-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:14:22-86
+20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:5-89
+20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:22-86
 21    <uses-permission android:name="android.permission.BLUETOOTH" />
-21-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:15:5-68
-21-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:15:22-65
+21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:5-68
+21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:22-65
 22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-22-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:16:5-74
-22-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:16:22-71
+22-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:5-74
+22-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:22-71
 23    <uses-permission android:name="android.permission.WAKE_LOCK" />
-23-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:17:5-67
-23-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:17:22-65
+23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:5-67
+23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:22-65
 24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-24-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:18:5-70
-24-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:18:22-68
+24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-70
+24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:22-68
 25    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-25-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:19:5-72
-25-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:19:22-70
+25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:19:5-72
+25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:19:22-70
 26
 27    <application
-27-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:21:5-47:19
+27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:21:5-47:19
 28        android:allowBackup="false"
-28-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:22:9-36
-29        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-29-->[com.android.support:support-compat:28.0.0] C:\Users\lenovod\.gradle\caches\transforms-2\files-2.1\00567bd0de14b33d1bf8a440dc72bff8\support-compat-28.0.0\AndroidManifest.xml:22:18-91
-30        android:debuggable="true"
-31        android:extractNativeLibs="false"
-32        android:icon="@mipmap/ic_launcher"
-32-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:23:9-43
-33        android:label="@string/app_name"
-33-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:24:9-41
-34        android:roundIcon="@mipmap/ic_launcher_round"
-34-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:25:9-54
-35        android:supportsRtl="true"
-35-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:26:9-35
-36        android:testOnly="true"
-37        android:theme="@style/AppTheme" >
-37-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:27:9-40
-38        <meta-data
-38-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:28:9-30:31
-39            android:name="com.amap.api.v2.apikey"
-39-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:29:13-50
-40            android:value="" /> <!-- input your amap key -->
-40-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:30:13-29
-41
-42        <activity
-42-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:32:9-39:20
-43            android:name="com.example.tnboysmap.MainActivity"
-43-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:32:19-47
-44            android:screenOrientation="portrait" >
-44-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:33:13-49
-45            <intent-filter>
-45-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:34:13-38:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:35:17-69
-46-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:35:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:37:17-77
-48-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:37:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:40:9-41:51
-52            android:name="com.example.tnboysmap.RouteActivity"
-52-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:40:19-48
-53            android:screenOrientation="portrait" />
-53-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:41:13-49
-54        <activity
-54-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:42:9-43:51
-55            android:name="com.example.tnboysmap.NavigateActivity"
-55-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:42:19-51
-56            android:screenOrientation="portrait" />
-56-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:43:13-49
-57        <activity
-57-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:44:9-45:61
-58            android:name="com.example.tnboysmap.SearchActivity"
-58-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:44:19-49
-59            android:screenOrientation="portrait" />
-59-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:45:13-49
-60
-61        <service android:name="com.amap.api.location.APSService" />
-61-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:46:9-76
-61-->D:\tricode\AndroidStudioProjects\TnboysMap-master\app\src\main\AndroidManifest.xml:46:18-65
-62    </application>
-63
-64</manifest>
+28-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:9-36
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:23:9-43
+32        android:label="@string/app_name"
+32-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-54
+34        android:supportsRtl="true"
+34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-35
+35        android:testOnly="true"
+36        android:theme="@style/AppTheme" >
+36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-40
+37        <meta-data
+37-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:9-30:63
+38            android:name="com.amap.api.v2.apikey"
+38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:13-50
+39            android:value="b9441ce996c021c9eca558b8815d5cbb" /> <!-- input your amap key -->
+39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:13-61
+40
+41        <activity
+41-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:9-39:20
+42            android:name="com.example.tnboysmap.MainActivity"
+42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:19-47
+43            android:screenOrientation="portrait" >
+43-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:33:13-49
+44            <intent-filter>
+44-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:34:13-38:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:17-69
+45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:17-77
+47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:9-41:51
+51            android:name="com.example.tnboysmap.RouteActivity"
+51-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:19-48
+52            android:screenOrientation="portrait" />
+52-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:41:13-49
+53        <activity
+53-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:42:9-43:51
+54            android:name="com.example.tnboysmap.NavigateActivity"
+54-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:42:19-51
+55            android:screenOrientation="portrait" />
+55-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:13-49
+56        <activity
+56-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:9-45:61
+57            android:name="com.example.tnboysmap.SearchActivity"
+57-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:19-49
+58            android:screenOrientation="portrait" />
+58-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:13-49
+59
+60        <service android:name="com.amap.api.location.APSService" />
+60-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:9-76
+60-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:18-65
+61
+62        <meta-data
+62-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\cdfeb1ecd3e970949e194c7bb20ba7ec\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+63            android:name="android.arch.lifecycle.VERSION"
+63-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\cdfeb1ecd3e970949e194c7bb20ba7ec\runtime-1.0.0\AndroidManifest.xml:26:13-58
+64            android:value="27.0.0-SNAPSHOT" />
+64-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\cdfeb1ecd3e970949e194c7bb20ba7ec\runtime-1.0.0\AndroidManifest.xml:27:13-44
+65    </application>
+66
+67</manifest>
