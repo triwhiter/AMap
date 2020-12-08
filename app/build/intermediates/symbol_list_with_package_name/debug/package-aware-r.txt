@@ -451,6 +451,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color dark
 color design_bottom_navigation_shadow_color
 color design_error
 color design_fab_shadow_end_color
@@ -511,8 +512,11 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_black
+color text_dark
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -770,6 +774,7 @@ drawable ic_near_me_white_48dp
 drawable ic_satellite_black_48dp
 drawable ic_swap_vert_white_48dp
 drawable ic_traffic_black_48dp
+drawable ic_wa_vert_white_48dp
 drawable ic_wb_incandescent_black_48dp
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -784,7 +789,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plus
 drawable rectangle
+drawable shape
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -828,7 +835,9 @@ id bottom_sheet_main
 id bottom_sheet_route
 id bottom_text_layout
 id buttonPanel
+id button_plus
 id button_swap
+id button_wa
 id cancel_action
 id center
 id center_horizontal

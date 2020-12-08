@@ -1,5 +1,6 @@
 package com.example.tnboysmap;
 
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -187,7 +188,7 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
         bottomSheet=(LinearLayout)findViewById(R.id.bottom_sheet_route);
 //        bottomSheet.setVisibility(View.GONE);
         textEmpty=(TextView)findViewById(R.id.text_empty);
-        textEmpty.setText(String.format("%s", "No viable route. Please try other ways."));
+        textEmpty.setText(String.format("%s", "请改变出行方式，该方式暂无推荐路线。"));
         textDeparture=(TextView)findViewById(R.id.text_departure);
         textDestination=(TextView)findViewById(R.id.text_destination);
         swap=(ImageButton)findViewById(R.id.button_swap);
@@ -211,8 +212,8 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
     private void showLoadingDialog(){
         if(loadingDialog==null){
             loadingDialog=new ProgressDialog(this);
-            loadingDialog.setTitle("Please wait for a moment");
-            loadingDialog.setMessage("Loading...");
+            loadingDialog.setTitle("请耐心等待");
+            loadingDialog.setMessage("正在努力加载了...");
             loadingDialog.setCancelable(true);
             loadingDialog.show();
         }
@@ -387,7 +388,7 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
             }
         } else {
             resetView();
-            Snackbar.make(mapView, "Route searching failed. Error code "+i,
+            Snackbar.make(mapView, "路线查找错误 "+i,
                     Snackbar.LENGTH_SHORT).show();
         }
     }

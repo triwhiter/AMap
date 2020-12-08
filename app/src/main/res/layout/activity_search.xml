@@ -10,7 +10,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/bgb">
+            android:background="@color/white">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_search"
@@ -27,7 +27,7 @@
                 android:layout_marginBottom="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#FFFFFF"
+                android:background="@color/dark"
                 android:maxLines="1"
                 android:iconifiedByDefault="false"
                 android:queryHint="Enter search content"/>
@@ -45,7 +45,7 @@
         android:id="@+id/text_no_result"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="No result"
+        android:text="暂无结果"
         android:gravity="center" />
 
 </android.support.design.widget.CoordinatorLayout>

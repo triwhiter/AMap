@@ -11,7 +11,7 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bgb">
+            android:background="@color/white">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar_route"
@@ -23,32 +23,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-
+                android:layout_marginTop="30dp"
                 android:layout_marginLeft="54dp"
+
+                android:background="@drawable/shape"
                 android:layout_marginRight="54dp">
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="30dp"
-                    android:background="@color/divider"
+                    android:background="@color/dark"
                     android:orientation="vertical">
 
                     <ImageButton
                         android:id="@+id/button_wa"
                         android:layout_width="30dp"
-                        android:layout_height="35dp"
-                        android:layout_marginTop="17.5dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="15dp"
                         android:layout_marginLeft="3dp"
-                        android:layout_marginRight="10dp"
+                        android:layout_marginRight="3dp"
                         android:background="@drawable/ic_wa_vert_white_48dp"
                         />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="6"
-                    android:layout_marginTop="30dp"
+                    android:layout_weight="5"
+                    android:background="@color/dark"
                     android:orientation="vertical">
 
                     <TextView
@@ -56,13 +57,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="35dp"
 
-                        android:background="@color/divider"
+
                         android:clickable="true"
                         android:ellipsize="end"
-                        android:hint="我的位置"
+                        android:hint="输入终点"
                         android:maxLines="1"
                         android:padding="5dp"
-                        android:textColor="#534E4E"
+                        android:textColor="@color/text_black"
                         android:textSize="15sp" />
 
                     <TextView
@@ -77,18 +78,32 @@
                         android:hint="输入终点"
                         android:maxLines="1"
                         android:padding="5dp"
-                        android:textColor="#534E4E"
+                        android:textColor="@color/text_black"
 
                         android:textSize="15sp" />
 
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="30dp"
-                    android:background="@color/divider"
+                    android:background="@color/dark"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/button_plus"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/plus"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@color/dark"
                     android:orientation="vertical">
 
                     <ImageButton
@@ -96,7 +111,7 @@
                         android:layout_width="30dp"
                         android:layout_height="25dp"
                         android:layout_marginTop="22.5dp"
-                        android:layout_marginLeft="3dp"
+                        android:layout_marginLeft="0dp"
                         android:layout_marginRight="10dp"
                         android:background="@drawable/ic_swap_vert_white_48dp"
                         />
@@ -110,11 +125,14 @@
             android:id="@+id/tabs"
             android:layout_height="40dp"
             android:layout_width="match_parent"
-            android:background="@color/bgb"
+            android:background="#ffffff"
 
             app:tabGravity="fill"
             app:tabMode="fixed"
-            app:tabTextColor="#FFFFFF" />
+            app:tabTextColor="@color/text_dark"
+            app:tabSelectedTextColor="@color/bgb"
+            app:tabIndicatorColor="@color/bgb"
+            />
 
     </android.support.design.widget.AppBarLayout>
 
@@ -197,8 +215,10 @@
         android:layout_marginRight="16dp"
         android:visibility="gone"
         app:layout_anchor="@id/bottom_sheet_route"
+        android:backgroundTint="@color/bgb"
+        app:elevation="8dp"
         app:layout_anchorGravity="top|end"
-        app:fabSize="normal"/>
+        app:fabSize="mini"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView_route"

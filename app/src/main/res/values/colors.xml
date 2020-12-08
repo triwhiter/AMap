@@ -7,4 +7,8 @@
   <color name="icons">#212121</color>
   <color name="divider">#FFFFFF</color>
   <color name="bgb">#1E6FFF</color>
+  <color name="white">#ffffff</color>
+  <color name="dark">#EFEFED</color>
+  <color name="text_black">#000000</color>
+  <color name="text_dark">#534E4E</color>
 </resources>
