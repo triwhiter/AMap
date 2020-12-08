@@ -173,7 +173,7 @@ public class SearchActivity extends AppCompatActivity implements PoiSearch.OnPoi
                 noResult.setVisibility(View.VISIBLE);
             }
         } else {
-            Toast.makeText(this, "Poi searching failed. Error code "+i,
+            Toast.makeText(this, "搜索错误 "+i,
                     Toast.LENGTH_SHORT).show();
         }
     }

@@ -3,19 +3,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/map_standard"
-            android:icon="@drawable/ic_map_black_48dp"
-            android:title="常规地图"/>
+            android:icon="@mipmap/normal_map"
+            android:title="白昼地图" />
         <item
             android:id="@+id/map_night"
-            android:icon="@drawable/ic_wb_incandescent_black_48dp"
-            android:title="夜视地图"/>
+            android:icon="@mipmap/night_map"
+            android:title="夜视地图" />
         <item
             android:id="@+id/map_satellite"
-            android:icon="@drawable/ic_satellite_black_48dp"
-            android:title="卫星地图"/>
+            android:icon="@mipmap/mon_map"
+            android:title="卫星图" />
         <item
             android:id="@+id/map_navi"
-            android:icon="@drawable/ic_map_black_48dp"
-            android:title="导航地图"/>
+            android:icon="@mipmap/bus_map"
+            android:title="导航地图" />
     </group>
 </menu>

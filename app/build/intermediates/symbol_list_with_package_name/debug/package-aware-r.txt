@@ -490,6 +490,7 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color primary
+color primary_d
 color primary_dark
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -500,6 +501,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color primary_u
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1096,8 +1098,12 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
 menu map_menu
+mipmap bus_map
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap mon_map
+mipmap night_map
+mipmap normal_map
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
