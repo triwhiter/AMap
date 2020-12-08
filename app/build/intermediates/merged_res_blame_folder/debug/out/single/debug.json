@@ -72,6 +72,10 @@
         "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_my_location_blue_48dp.png.flat",
+        "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\drawable\\ic_my_location_blue_48dp.png"
+    },
+    {
         "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle.xml.flat",
         "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\drawable\\rectangle.xml"
     },
@@ -108,8 +112,16 @@
         "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\drawable\\ic_my_location_black_48dp.png"
     },
     {
+        "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black_48dp.png.flat",
+        "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\drawable\\ic_search_black_48dp.png"
+    },
+    {
         "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_msg_black_48dp.png.flat",
+        "source": "D:\\androidwork\\linlinmap\\app\\src\\main\\res\\drawable\\ic_msg_black_48dp.png"
     },
     {
         "merged": "D:\\androidwork\\linlinmap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

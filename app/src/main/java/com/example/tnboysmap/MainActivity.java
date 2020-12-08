@@ -239,6 +239,10 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
                 aMap.setMapType(AMap.MAP_TYPE_SATELLITE);
                 drawerLayout.closeDrawer(GravityCompat.START);
                 break;
+            case R.id.map_navi:
+                aMap.setMapType(AMap.MAP_TYPE_NAVI);
+                drawerLayout.closeDrawer(GravityCompat.START);
+                break;
             default:
         }
         return true;
@@ -297,7 +301,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
                     aMap.animateCamera(CameraUpdateFactory.newLatLng(curLocation));
                     geocodeSearch(MapUtils.convertToLatLonPoint(curLocation));
                 } else {
-                    Snackbar.make(mapView, "Locating failed. Please check your settings.",
+                    Snackbar.make(mapView, "定位错误，请检查您的设置。",
                             Snackbar.LENGTH_SHORT).show();
                 }
                 break;
@@ -364,7 +368,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
             behavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
         } else if(!isBackClickOnce){
             isBackClickOnce=true;
-            Snackbar.make(mapView, "Double-click to exit", Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(mapView, "请双击返回", Snackbar.LENGTH_SHORT).show();
             Timer exitTimer=new Timer();
             exitTimer.schedule(new TimerTask() {
                 @Override

@@ -90,8 +90,8 @@ public class SearchActivity extends AppCompatActivity implements PoiSearch.OnPoi
     private void showLoadingDialog(){
         if(loadingDialog==null){
             loadingDialog=new ProgressDialog(this);
-            loadingDialog.setTitle("Please wait for a moment");
-            loadingDialog.setMessage("Loading...");
+            loadingDialog.setTitle("请耐心稍等");
+            loadingDialog.setMessage("正在努力加载了...");
             loadingDialog.setCancelable(true);
             loadingDialog.show();
         }

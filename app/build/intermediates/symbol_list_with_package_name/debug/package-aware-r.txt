@@ -769,9 +769,12 @@ drawable ic_directions_white_48dp
 drawable ic_map_black_48dp
 drawable ic_menu_black_48dp
 drawable ic_menu_blue_48dp
+drawable ic_msg_black_48dp
 drawable ic_my_location_black_48dp
+drawable ic_my_location_blue_48dp
 drawable ic_near_me_white_48dp
 drawable ic_satellite_black_48dp
+drawable ic_search_black_48dp
 drawable ic_swap_vert_white_48dp
 drawable ic_traffic_black_48dp
 drawable ic_wa_vert_white_48dp
@@ -895,6 +898,7 @@ id line1
 id line3
 id listMode
 id list_item
+id map_navi
 id map_night
 id map_satellite
 id map_standard
@@ -946,6 +950,7 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
+id search_img
 id search_mag_icon
 id search_plate
 id search_src_text
