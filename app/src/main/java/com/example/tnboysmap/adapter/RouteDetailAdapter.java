@@ -13,10 +13,6 @@ import com.example.tnboysmap.utils.MapUtils;
 
 import java.util.List;
 
-/**
- * Created by miku on 2017/6/13 0013.
- */
-
 public class RouteDetailAdapter extends RecyclerView.Adapter<RouteDetailAdapter.ViewHolder> {
 
     private List<AMapNaviGuide> aMapNaviGuideList;

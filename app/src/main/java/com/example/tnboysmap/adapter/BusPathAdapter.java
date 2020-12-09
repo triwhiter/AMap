@@ -16,10 +16,6 @@ import com.example.tnboysmap.utils.MapUtils;
 
 import java.util.List;
 
-/**
- * Created by miku on 2017/6/11 0011.
- */
-
 public class BusPathAdapter extends RecyclerView.Adapter<BusPathAdapter.ViewHolder> {
 
     private List<BusPath> busPathList;

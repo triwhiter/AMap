@@ -77,8 +77,8 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
     private int curMode=0;
     private String city=null;
 
-    private NaviLatLng locationDeparture=null;
-    private NaviLatLng locationDestination=null;
+    private NaviLatLng locationDeparture=null;// 出发导航
+    private NaviLatLng locationDestination=null;//返回导航
     private List<NaviLatLng> from=new ArrayList<>();
     private List<NaviLatLng> to=new ArrayList<>();
     private List<NaviLatLng> wayPoints=new ArrayList<>();
@@ -181,11 +181,9 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
             firstTab.select();
         }
         navigate=(FloatingActionButton)findViewById(R.id.fab_navigate);
-//        navigate.setVisibility(View.GONE);
         textDistance=(TextView)findViewById(R.id.text_distance);
         textTime=(TextView)findViewById(R.id.text_time);
         bottomSheet=(LinearLayout)findViewById(R.id.bottom_sheet_route);
-//        bottomSheet.setVisibility(View.GONE);
         textEmpty=(TextView)findViewById(R.id.text_empty);
         textEmpty.setText(String.format("%s", "No viable route. Please try other ways."));
         textDeparture=(TextView)findViewById(R.id.text_departure);

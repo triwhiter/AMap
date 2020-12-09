@@ -25,10 +25,6 @@ import com.iflytek.cloud.SpeechSynthesizer;
 import com.iflytek.cloud.SpeechUtility;
 import com.iflytek.cloud.SynthesizerListener;
 
-/**
- * Created by miku on 2017/6/2 0002.
- */
-
 public class NavigationVoiceController implements AMapNaviListener, SynthesizerListener,
         InitListener {
 

@@ -1,9 +1,5 @@
 package com.example.tnboysmap.utils;
 
-/**
- * Created by miku on 2017/6/1 0001.
- */
-
 public abstract class Constants {
 
     public static final int REQUEST_MAIN_ACTIVITY=1;

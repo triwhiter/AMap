@@ -15,10 +15,6 @@ import com.example.tnboysmap.utils.Constants;
 
 import java.util.List;
 
-/**
- * Created by miku on 2017/6/1 0001.
- */
-
 public class PoiItemAdapter extends RecyclerView.Adapter<PoiItemAdapter.ViewHolder>{
 
     private List<PoiItem> poiItemList;

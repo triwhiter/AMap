@@ -55,7 +55,7 @@ public class SearchActivity extends AppCompatActivity implements PoiSearch.OnPoi
         city=getIntent().getStringExtra("city");
 
         searchView=(SearchView)findViewById(R.id.search_view);
-        searchView.setOnQueryTextListener(this);
+        searchView.setOnQueryTextListener(this); //设置监听
         searchView.onActionViewExpanded();
         searchView.setSubmitButtonEnabled(true);
         noResult=(TextView)findViewById(R.id.text_no_result);
@@ -160,7 +160,7 @@ public class SearchActivity extends AppCompatActivity implements PoiSearch.OnPoi
         dismissLoadingDialog();
         if(i==1000){
             if(poiResult!=null&&poiResult.getQuery()!=null&&poiResult.getPois()!=null){
-                poiItemList=poiResult.getPois();
+                poiItemList=poiResult.getPois(); // 获得地点列表
                 poiItemAdapter=new PoiItemAdapter(poiItemList, this);
                 recyclerView.setAdapter(poiItemAdapter);
                 poiItemAdapter.notifyDataSetChanged();
