@@ -1,4 +1,4 @@
-package com.example.tnboysmap.adapter;
+package com.ctgu.linlinmap.adapter;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +9,9 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.amap.api.services.core.PoiItem;
-import com.example.tnboysmap.R;
-import com.example.tnboysmap.SearchActivity;
-import com.example.tnboysmap.utils.Constants;
+import com.ctgu.linlinmap.R;
+import com.ctgu.linlinmap.SearchActivity;
+import com.ctgu.linlinmap.utils.Constants;
 
 import java.util.List;
 

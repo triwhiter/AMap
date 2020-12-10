@@ -1,4 +1,4 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import com.amap.api.navi.AMapNaviView;
 import com.amap.api.navi.AMapNaviViewListener;
 import com.amap.api.navi.AMapNaviViewOptions;
 import com.amap.api.navi.enums.NaviType;
-import com.example.tnboysmap.utils.NavigationVoiceController;
+import com.ctgu.linlinmap.utils.NavigationVoiceController;
 
 public class NavigateActivity extends AppCompatActivity implements AMapNaviViewListener {
 

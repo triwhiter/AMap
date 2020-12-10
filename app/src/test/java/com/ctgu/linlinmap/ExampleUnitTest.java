@@ -1,4 +1,4 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 import org.junit.Test;
 

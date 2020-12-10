@@ -1,4 +1,4 @@
-package com.example.tnboysmap.adapter;
+package com.ctgu.linlinmap.adapter;
 
 import android.support.v7.widget.RecyclerView;
 
@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.amap.api.navi.model.AMapNaviGuide;
-import com.example.tnboysmap.R;
-import com.example.tnboysmap.utils.MapUtils;
+import com.ctgu.linlinmap.R;
+import com.ctgu.linlinmap.utils.MapUtils;
 
 import java.util.List;
 

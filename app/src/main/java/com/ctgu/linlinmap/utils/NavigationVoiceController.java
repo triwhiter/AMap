@@ -1,4 +1,4 @@
-package com.example.tnboysmap.utils;
+package com.ctgu.linlinmap.utils;
 
 import android.content.Context;
 import android.os.Bundle;

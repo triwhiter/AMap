@@ -1,4 +1,4 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

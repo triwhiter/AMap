@@ -1,10 +1,9 @@
-package com.example.tnboysmap.utils;
+package com.ctgu.linlinmap.utils;
 
 import android.location.Location;
 
 import com.amap.api.maps.model.LatLng;
 import com.amap.api.navi.enums.IconType;
-import com.amap.api.navi.model.AMapNaviGuide;
 import com.amap.api.navi.model.NaviLatLng;
 import com.amap.api.services.core.LatLonPoint;
 import com.amap.api.services.route.BusPath;

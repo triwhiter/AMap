@@ -1,4 +1,4 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -21,8 +21,8 @@ import com.amap.api.services.help.InputtipsQuery;
 import com.amap.api.services.help.Tip;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
-import com.example.tnboysmap.adapter.PoiItemAdapter;
-import com.example.tnboysmap.adapter.TipAdapter;
+import com.ctgu.linlinmap.adapter.PoiItemAdapter;
+import com.ctgu.linlinmap.adapter.TipAdapter;
 
 import java.util.List;
 

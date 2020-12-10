@@ -1,4 +1,4 @@
-package com.example.tnboysmap.utils;
+package com.ctgu.linlinmap.utils;
 
 /**
  * Created by miku on 2017/6/1 0001.

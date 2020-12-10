@@ -1,4 +1,4 @@
-package com.example.tnboysmap.adapter;
+package com.ctgu.linlinmap.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import com.amap.api.services.route.BusPath;
 import com.amap.api.services.route.BusStep;
 import com.amap.api.services.route.RouteBusLineItem;
-import com.example.tnboysmap.R;
-import com.example.tnboysmap.utils.MapUtils;
+import com.ctgu.linlinmap.R;
+import com.ctgu.linlinmap.utils.MapUtils;
 
 import java.util.List;
 

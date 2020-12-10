@@ -1,11 +1,10 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
-import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.FloatingActionButton;
@@ -45,8 +44,8 @@ import com.amap.api.services.geocoder.RegeocodeResult;
 import com.amap.api.services.help.Tip;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
-import com.example.tnboysmap.utils.Constants;
-import com.example.tnboysmap.utils.MapUtils;
+import com.ctgu.linlinmap.utils.Constants;
+import com.ctgu.linlinmap.utils.MapUtils;
 
 import java.util.ArrayList;
 import java.util.List;

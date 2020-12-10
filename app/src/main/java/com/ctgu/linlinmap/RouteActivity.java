@@ -1,4 +1,4 @@
-package com.example.tnboysmap;
+package com.ctgu.linlinmap;
 
 
 import android.app.ProgressDialog;
@@ -51,10 +51,10 @@ import com.amap.api.services.route.RideRouteResult;
 import com.amap.api.services.route.RouteSearch;
 import com.amap.api.services.route.WalkRouteResult;
 import com.autonavi.tbt.TrafficFacilityInfo;
-import com.example.tnboysmap.adapter.BusPathAdapter;
-import com.example.tnboysmap.adapter.RouteDetailAdapter;
-import com.example.tnboysmap.utils.Constants;
-import com.example.tnboysmap.utils.MapUtils;
+import com.ctgu.linlinmap.adapter.BusPathAdapter;
+import com.ctgu.linlinmap.adapter.RouteDetailAdapter;
+import com.ctgu.linlinmap.utils.Constants;
+import com.ctgu.linlinmap.utils.MapUtils;
 import com.amap.api.navi.view.RouteOverLay;
 
 import java.util.ArrayList;
