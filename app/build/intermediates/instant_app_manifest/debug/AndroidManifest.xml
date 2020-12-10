@@ -40,7 +40,7 @@
             android:value="b9441ce996c021c9eca558b8815d5cbb" /> <!-- input your amap key -->
 
         <activity
-            android:name="com.example.tnboysmap.MainActivity"
+            android:name="com.ctgu.linlinmap.MainActivity"
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,13 +49,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.tnboysmap.RouteActivity"
+            android:name="com.ctgu.linlinmap.RouteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.tnboysmap.NavigateActivity"
+            android:name="com.ctgu.linlinmap.NavigateActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.example.tnboysmap.SearchActivity"
+            android:name="com.ctgu.linlinmap.SearchActivity"
             android:screenOrientation="portrait" />
 
         <service android:name="com.amap.api.location.APSService" />

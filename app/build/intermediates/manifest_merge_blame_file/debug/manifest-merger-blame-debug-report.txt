@@ -82,8 +82,8 @@
 40
 41        <activity
 41-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:32:9-39:20
-42            android:name="com.example.tnboysmap.MainActivity"
-42-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:32:19-47
+42            android:name="com.ctgu.linlinmap.MainActivity"
+42-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:32:19-65
 43            android:screenOrientation="portrait" >
 43-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:33:13-49
 44            <intent-filter>
@@ -99,20 +99,20 @@
 49        </activity>
 50        <activity
 50-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:40:9-41:51
-51            android:name="com.example.tnboysmap.RouteActivity"
-51-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:40:19-48
+51            android:name="com.ctgu.linlinmap.RouteActivity"
+51-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:40:19-66
 52            android:screenOrientation="portrait" />
 52-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:41:13-49
 53        <activity
 53-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:42:9-43:51
-54            android:name="com.example.tnboysmap.NavigateActivity"
-54-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:42:19-51
+54            android:name="com.ctgu.linlinmap.NavigateActivity"
+54-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:42:19-69
 55            android:screenOrientation="portrait" />
 55-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:43:13-49
 56        <activity
 56-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:44:9-45:61
-57            android:name="com.example.tnboysmap.SearchActivity"
-57-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:44:19-49
+57            android:name="com.ctgu.linlinmap.SearchActivity"
+57-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:44:19-67
 58            android:screenOrientation="portrait" />
 58-->D:\Project\AndroidProject\AMap\app\src\main\AndroidManifest.xml:45:13-49
 59
