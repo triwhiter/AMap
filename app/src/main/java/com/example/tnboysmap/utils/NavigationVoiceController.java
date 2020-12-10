@@ -33,55 +33,55 @@ public class NavigationVoiceController implements AMapNaviListener, SynthesizerL
         InitListener {
 
     private Context context;
-    private static NavigationVoiceController controller=null;
-    private SpeechSynthesizer synthesizer=null;
+    private static NavigationVoiceController controller = null;
+    private SpeechSynthesizer synthesizer = null;
 
-    private NavigationVoiceController(Context context){
-        this.context=context;
+    private NavigationVoiceController(Context context) {
+        this.context = context;
     }
 
-    public static NavigationVoiceController getInstance(Context context){
-        if(controller==null) {
+    public static NavigationVoiceController getInstance(Context context) {
+        if (controller == null) {
             controller = new NavigationVoiceController(context);
             controller.init();
         }
         return controller;
     }
 
-    public void init(){
-        SpeechUtility.createUtility(context, SpeechConstant.APPID +"=/*input your iFLY");
-        synthesizer=SpeechSynthesizer.createSynthesizer(context, this);
+    public void init() {
+        SpeechUtility.createUtility(context, SpeechConstant.APPID + "=/*input your iFLY");
+        synthesizer = SpeechSynthesizer.createSynthesizer(context, this);
         synthesizer.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan");
         synthesizer.setParameter(SpeechConstant.SPEED, "50");
         synthesizer.setParameter(SpeechConstant.VOLUME, "80");
         synthesizer.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_CLOUD);
         synthesizer.setParameter(SpeechConstant.TTS_AUDIO_PATH,
-                Environment.getExternalStorageDirectory()+"/tnboys/iflytek.pcm");
+                Environment.getExternalStorageDirectory() + "/tnboys/iflytek.pcm");
     }
 
-    public void startSpeaking(String text){
-        if(synthesizer!=null){
+    public void startSpeaking(String text) {
+        if (synthesizer != null) {
             synthesizer.startSpeaking(text, this);
         }
     }
 
-    public void stopSpeaking(){
-        if(synthesizer!=null){
+    public void stopSpeaking() {
+        if (synthesizer != null) {
             synthesizer.stopSpeaking();
         }
     }
 
-    public void destroy(){
-        if(synthesizer!=null){
+    public void destroy() {
+        if (synthesizer != null) {
             synthesizer.stopSpeaking();
             synthesizer.destroy();
         }
-        controller=null;
+        controller = null;
     }
 
     @Override
     public void onInit(int i) {
-        if(i!= ErrorCode.SUCCESS){
+        if (i != ErrorCode.SUCCESS) {
             Toast.makeText(context, "NavigationVoice component init failed.",
                     Toast.LENGTH_SHORT).show();
         }

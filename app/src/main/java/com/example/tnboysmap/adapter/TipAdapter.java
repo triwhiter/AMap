@@ -25,37 +25,37 @@ public class TipAdapter extends RecyclerView.Adapter<TipAdapter.ViewHolder> {
     private List<Tip> tipList;
     private SearchActivity activity;
 
-    static class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView tipName;
         TextView tipAddress;
         View tipView;
 
-        public ViewHolder(View view){
+        public ViewHolder(View view) {
             super(view);
-            tipView=view;
-            tipName=(TextView)view.findViewById(R.id.name);
-            tipAddress=(TextView)view.findViewById(R.id.address);
+            tipView = view;
+            tipName = (TextView) view.findViewById(R.id.name);
+            tipAddress = (TextView) view.findViewById(R.id.address);
         }
     }
 
-    public TipAdapter(List<Tip> tipList, SearchActivity activity){
-        this.tipList=tipList;
-        this.activity=activity;
+    public TipAdapter(List<Tip> tipList, SearchActivity activity) {
+        this.tipList = tipList;
+        this.activity = activity;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).
+        View view = LayoutInflater.from(parent.getContext()).
                 inflate(R.layout.item_tip_poi, parent, false);
-        final ViewHolder holder=new ViewHolder(view);
+        final ViewHolder holder = new ViewHolder(view);
         holder.tipView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int position=holder.getAdapterPosition();
-                Tip tip=tipList.get(position);
-                if(tip.getPoiID()!=null&&tip.getPoint()!=null){
-                    Intent intent=new Intent();
+                int position = holder.getAdapterPosition();
+                Tip tip = tipList.get(position);
+                if (tip.getPoiID() != null && tip.getPoint() != null) {
+                    Intent intent = new Intent();
                     intent.putExtra("resultType", Constants.RESULT_TIP);
                     intent.putExtra("result", tip);
                     activity.setResult(AppCompatActivity.RESULT_OK, intent);
@@ -70,9 +70,9 @@ public class TipAdapter extends RecyclerView.Adapter<TipAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Tip tip=tipList.get(position);
-        if(tip.getPoiID()==null&&tip.getPoint()==null){
-            holder.tipName.setText(tip.getName()+tip.getDistrict());
+        Tip tip = tipList.get(position);
+        if (tip.getPoiID() == null && tip.getPoint() == null) {
+            holder.tipName.setText(tip.getName() + tip.getDistrict());
             holder.tipAddress.setVisibility(View.GONE);
         } else {
             holder.tipName.setText(tip.getName());
