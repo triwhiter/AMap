@@ -51,7 +51,6 @@ public class NavigationVoiceController implements AMapNaviListener, SynthesizerL
         synthesizer.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan");
         synthesizer.setParameter(SpeechConstant.SPEED, "50");
         synthesizer.setParameter(SpeechConstant.VOLUME, "80");
-        synthesizer.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_CLOUD);
     }
 
     public void startSpeaking(String text) {

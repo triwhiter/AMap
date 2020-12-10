@@ -1,7 +1,3 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">LinLinMap</string>
-=======
     <string name="app_name">霖霖地图</string>
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370
 </resources>

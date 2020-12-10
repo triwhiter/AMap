@@ -39,8 +39,4 @@ dependencies {
     implementation 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:27.0.0'
     implementation 'com.android.support:design:27.0.0'
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370

@@ -442,6 +442,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bgb
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -450,6 +451,7 @@ color bright_foreground_material_dark
 color bright_foreground_material_light
 color button_material_dark
 color button_material_light
+color dark
 color design_bottom_navigation_shadow_color
 color design_error
 color design_fab_shadow_end_color
@@ -488,6 +490,7 @@ color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
 color primary
+color primary_d
 color primary_dark
 color primary_dark_material_dark
 color primary_dark_material_light
@@ -498,6 +501,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color primary_u
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -510,8 +514,11 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color text_black
+color text_dark
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -759,14 +766,20 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable div_white
 drawable ic_directions_white_48dp
 drawable ic_map_black_48dp
 drawable ic_menu_black_48dp
+drawable ic_menu_blue_48dp
+drawable ic_msg_black_48dp
 drawable ic_my_location_black_48dp
+drawable ic_my_location_blue_48dp
 drawable ic_near_me_white_48dp
 drawable ic_satellite_black_48dp
+drawable ic_search_black_48dp
 drawable ic_swap_vert_white_48dp
 drawable ic_traffic_black_48dp
+drawable ic_wa_vert_white_48dp
 drawable ic_wb_incandescent_black_48dp
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -781,7 +794,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable plus
 drawable rectangle
+drawable shape
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -825,7 +840,9 @@ id bottom_sheet_main
 id bottom_sheet_route
 id bottom_text_layout
 id buttonPanel
+id button_plus
 id button_swap
+id button_wa
 id cancel_action
 id center
 id center_horizontal
@@ -883,6 +900,7 @@ id line1
 id line3
 id listMode
 id list_item
+id map_navi
 id map_night
 id map_satellite
 id map_standard
@@ -934,6 +952,7 @@ id search_button
 id search_close_btn
 id search_edit_frame
 id search_go_btn
+id search_img
 id search_mag_icon
 id search_plate
 id search_src_text
@@ -1079,8 +1098,12 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
 menu map_menu
+mipmap bus_map
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap mon_map
+mipmap night_map
+mipmap normal_map
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

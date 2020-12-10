@@ -84,12 +84,9 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="120dp"
-<<<<<<< HEAD
-            android:src="@drawable/ic_my_location_black_48dp"
-            app:backgroundTint="#FFFFFF"
-            app:fabSize="mini" />
 
-=======
+
+
             android:src="@drawable/ic_my_location_blue_48dp"
             app:backgroundTint="#FFFFFF"
             app:elevation="8dp"
@@ -115,7 +112,7 @@
         <!--            app:backgroundTint="#FFFFFF"-->
         <!--            android:layout_gravity="top|start"-->
         <!--            android:src="@drawable/ic_search_black_48dp"/>-->
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="200dp"

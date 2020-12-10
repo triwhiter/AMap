@@ -12,6 +12,10 @@
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\layout\\item_detail.xml"
     },
     {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_bus_map.jpg.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-hdpi\\bus_map.jpg"
+    },
+    {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_traffic_black_48dp.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_traffic_black_48dp.png"
     },
@@ -56,6 +60,10 @@
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\layout\\item_path.xml"
     },
     {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape.xml.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_near_me_white_48dp.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_near_me_white_48dp.png"
     },
@@ -68,6 +76,10 @@
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_normal_map.jpg.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-hdpi\\normal_map.jpg"
+    },
+    {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_directions_white_48dp.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_directions_white_48dp.png"
     },
@@ -76,12 +88,20 @@
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_blue_48dp.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_menu_blue_48dp.png"
+    },
+    {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wb_incandescent_black_48dp.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_wb_incandescent_black_48dp.png"
     },
     {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\layout_path_detail.xml.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\layout\\path_detail.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_night_map.jpg.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-hdpi\\night_map.jpg"
     },
     {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\menu_map_menu.xml.flat",
@@ -100,8 +120,32 @@
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_mon_map.jpg.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-hdpi\\mon_map.jpg"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plus.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\plus.png"
+    },
+    {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_satellite_black_48dp.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_satellite_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_div_white.xml.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\div_white.xml"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_msg_black_48dp.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_msg_black_48dp.png"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_my_location_blue_48dp.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_my_location_blue_48dp.png"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black_48dp.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_search_black_48dp.png"
     },
     {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -122,5 +166,9 @@
     {
         "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Project\\AndroidProject\\AMap\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wa_vert_white_48dp.png.flat",
+        "source": "D:\\Project\\AndroidProject\\AMap\\app\\src\\main\\res\\drawable\\ic_wa_vert_white_48dp.png"
     }
 ]

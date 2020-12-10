@@ -1,8 +1,4 @@
 package com.ctgu.linlinmap;
-<<<<<<< HEAD:app/src/main/java/com/ctgu/linlinmap/RouteActivity.java
-=======
-
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370:app/src/main/java/com/example/tnboysmap/RouteActivity.java
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -65,46 +61,7 @@ import java.util.List;
 
 public class RouteActivity extends AppCompatActivity implements View.OnClickListener,
         AMapNaviListener, TabLayout.OnTabSelectedListener, RouteSearch.OnRouteSearchListener,
-<<<<<<< HEAD:app/src/main/java/com/ctgu/linlinmap/RouteActivity.java
-        PoiSearch.OnPoiSearchListener{
 
-    private static final String MY_LOCATION="我的位置";
-    private static final String DRIVE_TAB="Drive";
-    private static final String WALK_TAB="Walk";
-    private static final String RIDE_TAB="Ride";
-    private static final String BUS_TAB="Bus";
-    private static final int DRIVE_MODE=0;
-    private static final int WALK_MODE=1;
-    private static final int RIDE_MODE=2;
-    private static final int BUS_MODE=3;
-
-    private int isSearchingText=R.id.text_destination;
-    private int curMode=0;
-    private String city=null;
-
-    private NaviLatLng locationDeparture=null;// 出发导航
-    private NaviLatLng locationDestination=null;//返回导航
-    private List<NaviLatLng> from=new ArrayList<>();
-    private List<NaviLatLng> to=new ArrayList<>();
-    private List<NaviLatLng> wayPoints=new ArrayList<>();
-    private RouteOverLay routeOverLay=null;
-    private RouteSearch routeSearch=null;
-
-    private TextView textDeparture=null;
-    private TextView textDestination=null;
-    private MapView mapView=null;
-    private AMap aMap=null;
-    private AMapNavi aMapNavi=null;
-    private ProgressDialog loadingDialog=null;
-    private TextView textEmpty=null;
-    private TextView textDistance=null;
-    private TextView textTime=null;
-    private LinearLayout bottomSheet=null;
-    private FloatingActionButton navigate=null;
-    private ImageButton swap=null;
-    private RecyclerView busPathList=null;
-    private RecyclerView detailList=null;
-=======
         PoiSearch.OnPoiSearchListener {
 
     private static final String MY_LOCATION = "我的位置";
@@ -143,7 +100,7 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
     private ImageButton swap = null;
     private RecyclerView busPathList = null;
     private RecyclerView detailList = null;
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370:app/src/main/java/com/example/tnboysmap/RouteActivity.java
+
 
     //活动跳转函数
     public static void startActivity(Context context, LatLng curLocation,
@@ -225,18 +182,6 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
         if (firstTab != null) {
             firstTab.select();
         }
-<<<<<<< HEAD:app/src/main/java/com/ctgu/linlinmap/RouteActivity.java
-        navigate=(FloatingActionButton)findViewById(R.id.fab_navigate);
-        textDistance=(TextView)findViewById(R.id.text_distance);
-        textTime=(TextView)findViewById(R.id.text_time);
-        bottomSheet=(LinearLayout)findViewById(R.id.bottom_sheet_route);
-        textEmpty=(TextView)findViewById(R.id.text_empty);
-        textEmpty.setText(String.format("%s", "No viable route. Please try other ways."));
-        textDeparture=(TextView)findViewById(R.id.text_departure);
-        textDestination=(TextView)findViewById(R.id.text_destination);
-        swap=(ImageButton)findViewById(R.id.button_swap);
-        busPathList=(RecyclerView)findViewById(R.id.recyclerView_route);
-=======
         navigate = (FloatingActionButton) findViewById(R.id.fab_navigate);
 //        navigate.setVisibility(View.GONE);
         textDistance = (TextView) findViewById(R.id.text_distance);
@@ -249,7 +194,6 @@ public class RouteActivity extends AppCompatActivity implements View.OnClickList
         textDestination = (TextView) findViewById(R.id.text_destination);
         swap = (ImageButton) findViewById(R.id.button_swap);
         busPathList = (RecyclerView) findViewById(R.id.recyclerView_route);
->>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370:app/src/main/java/com/example/tnboysmap/RouteActivity.java
         busPathList.setLayoutManager(new LinearLayoutManager(this));
         detailList = (RecyclerView) findViewById(R.id.recyclerView_detail);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
