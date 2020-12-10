@@ -49,14 +49,13 @@ public class NavigationVoiceController implements AMapNaviListener, SynthesizerL
     }
 
     public void init() {
-        SpeechUtility.createUtility(context, SpeechConstant.APPID + "=/*input your iFLY");
+        SpeechUtility.createUtility(context, SpeechConstant.APPID + "=5fd1ed26");
         synthesizer = SpeechSynthesizer.createSynthesizer(context, this);
         synthesizer.setParameter(SpeechConstant.VOICE_NAME, "xiaoyan");
         synthesizer.setParameter(SpeechConstant.SPEED, "50");
         synthesizer.setParameter(SpeechConstant.VOLUME, "80");
         synthesizer.setParameter(SpeechConstant.ENGINE_TYPE, SpeechConstant.TYPE_CLOUD);
-        synthesizer.setParameter(SpeechConstant.TTS_AUDIO_PATH,
-                Environment.getExternalStorageDirectory() + "/tnboys/iflytek.pcm");
+
     }
 
     public void startSpeaking(String text) {
