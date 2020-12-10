@@ -12,23 +12,23 @@ import com.ctgu.linlinmap.utils.NavigationVoiceController;
 
 public class NavigateActivity extends AppCompatActivity implements AMapNaviViewListener {
 
-    private AMapNaviView aMapNaviView=null;
-    private AMapNavi aMapNavi=null;
-    private NavigationVoiceController controller=null;
+    private AMapNaviView aMapNaviView = null;
+    private AMapNavi aMapNavi = null;
+    private NavigationVoiceController controller = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigate);
-        aMapNaviView=(AMapNaviView)findViewById(R.id.navigate_view);
+        aMapNaviView = (AMapNaviView) findViewById(R.id.navigate_view);
         aMapNaviView.onCreate(savedInstanceState);
         aMapNaviView.setAMapNaviViewListener(this);
-        AMapNaviViewOptions options=new AMapNaviViewOptions();
+        AMapNaviViewOptions options = new AMapNaviViewOptions();
         options.setReCalculateRouteForYaw(true);
         options.setScreenAlwaysBright(true);
         aMapNaviView.setViewOptions(options);
-        controller=NavigationVoiceController.getInstance(getApplicationContext());
-        aMapNavi=AMapNavi.getInstance(getApplicationContext());
+        controller = NavigationVoiceController.getInstance(getApplicationContext());
+        aMapNavi = AMapNavi.getInstance(getApplicationContext());
         aMapNavi.addAMapNaviListener(controller);
         AMapNavi.setTtsPlaying(false);
         aMapNavi.startNavi(NaviType.GPS);

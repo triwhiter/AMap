@@ -17,46 +17,46 @@ import java.util.List;
 
 public class MapUtils {
 
-    public static LatLng convertToLatLng(Location location){
+    public static LatLng convertToLatLng(Location location) {
         return new LatLng(location.getLatitude(), location.getLongitude());
     }
 
-    public static LatLng convertToLatLng(LatLonPoint latLonPoint){
+    public static LatLng convertToLatLng(LatLonPoint latLonPoint) {
         return new LatLng(latLonPoint.getLatitude(), latLonPoint.getLongitude());
     }
 
-    public static NaviLatLng convertToNaviLatLng(LatLng latLng){
+    public static NaviLatLng convertToNaviLatLng(LatLng latLng) {
         return new NaviLatLng(latLng.latitude, latLng.longitude);
     }
 
-    public static NaviLatLng convertToNaviLatLng(LatLonPoint latLonPoint){
+    public static NaviLatLng convertToNaviLatLng(LatLonPoint latLonPoint) {
         return new NaviLatLng(latLonPoint.getLatitude(), latLonPoint.getLongitude());
     }
 
-    public static LatLonPoint convertToLatLonPoint(LatLng latLng){
+    public static LatLonPoint convertToLatLonPoint(LatLng latLng) {
         return new LatLonPoint(latLng.latitude, latLng.longitude);
     }
 
-    public static LatLonPoint convertToLatLonPoint(Location location){
+    public static LatLonPoint convertToLatLonPoint(Location location) {
         return new LatLonPoint(location.getLatitude(), location.getLongitude());
     }
 
-    public static LatLonPoint convertToLatLonPoint(NaviLatLng naviLatLng){
+    public static LatLonPoint convertToLatLonPoint(NaviLatLng naviLatLng) {
         return new LatLonPoint(naviLatLng.getLatitude(), naviLatLng.getLongitude());
     }
 
-    public static String getLengthStr(float length){
-        if(length < 1000){
-            return (int)(length) +"米";
-        } else if(length < 10000){
-            DecimalFormat decimalFormat=new DecimalFormat(".0");
-            return decimalFormat.format(length/1000)+"公里";
+    public static String getLengthStr(float length) {
+        if (length < 1000) {
+            return (int) (length) + "米";
+        } else if (length < 10000) {
+            DecimalFormat decimalFormat = new DecimalFormat(".0");
+            return decimalFormat.format(length / 1000) + "公里";
         } else {
-            return (int)(length/1000)+"公里";
+            return (int) (length / 1000) + "公里";
         }
     }
 
-    public static String getTimeStr(long second){
+    public static String getTimeStr(long second) {
         if (second > 3600) {
             long hour = second / 3600;
             long minute = (second % 3600) / 60;
@@ -69,56 +69,56 @@ public class MapUtils {
         return second + "秒";
     }
 
-    public static String getBusPathTitle(BusPath path){
-        String empty="";
-        if(path==null){
+    public static String getBusPathTitle(BusPath path) {
+        String empty = "";
+        if (path == null) {
             return empty;
         }
-        List<BusStep> busStepList=path.getSteps();
-        if(busStepList==null){
+        List<BusStep> busStepList = path.getSteps();
+        if (busStepList == null) {
             return empty;
         }
 
-        StringBuilder title=new StringBuilder();
-        for(BusStep step:busStepList){
-            StringBuilder subTitle=new StringBuilder();
-            if(step.getBusLines().size()>0){
-                for(RouteBusLineItem busLineItem:step.getBusLines()){
-                    if(busLineItem!=null){
-                        String name=busLineItem.getBusLineName();
-                        if(name!=null){
+        StringBuilder title = new StringBuilder();
+        for (BusStep step : busStepList) {
+            StringBuilder subTitle = new StringBuilder();
+            if (step.getBusLines().size() > 0) {
+                for (RouteBusLineItem busLineItem : step.getBusLines()) {
+                    if (busLineItem != null) {
+                        String name = busLineItem.getBusLineName();
+                        if (name != null) {
                             subTitle.append(name.replaceAll("\\(.*\\)", ""));
                             subTitle.append(" / ");
                         }
                     }
                 }
-                title.append(subTitle.substring(0, subTitle.length()-3));
+                title.append(subTitle.substring(0, subTitle.length() - 3));
                 title.append(" > ");
             }
-            if(step.getRailway()!=null){
-                RouteRailwayItem routeRailwayItem=step.getRailway();
-                title.append(routeRailwayItem.getTrip()+"("+
-                        routeRailwayItem.getDeparturestop().getName()+" - "+
+            if (step.getRailway() != null) {
+                RouteRailwayItem routeRailwayItem = step.getRailway();
+                title.append(routeRailwayItem.getTrip() + "(" +
+                        routeRailwayItem.getDeparturestop().getName() + " - " +
                         routeRailwayItem.getArrivalstop().getName());
                 title.append(" > ");
             }
         }
-        return title.substring(0, title.length()-3);
+        return title.substring(0, title.length() - 3);
     }
 
-    public static String getBusPathInfo(BusPath path){
-        String empty="";
-        if(path==null){
+    public static String getBusPathInfo(BusPath path) {
+        String empty = "";
+        if (path == null) {
             return empty;
         }
-        return MapUtils.getTimeStr(path.getDuration())+" | "+
-                MapUtils.getLengthStr(path.getDistance())+" | 步行"+
-                MapUtils.getLengthStr(path.getWalkDistance())+" | 花费"+
-                path.getCost()+"元";
+        return MapUtils.getTimeStr(path.getDuration()) + " | " +
+                MapUtils.getLengthStr(path.getDistance()) + " | 步行" +
+                MapUtils.getLengthStr(path.getWalkDistance()) + " | 花费" +
+                path.getCost() + "元";
     }
 
-    public static String getActionStr(int iconType){
-        switch (iconType){
+    public static String getActionStr(int iconType) {
+        switch (iconType) {
             case IconType.ARRIVED_DESTINATION:
                 return "到达目的地";
             case IconType.ARRIVED_SERVICE_AREA:

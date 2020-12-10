@@ -17,37 +17,37 @@ public class RouteDetailAdapter extends RecyclerView.Adapter<RouteDetailAdapter.
 
     private List<AMapNaviGuide> aMapNaviGuideList;
 
-    static class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder {
         TextView text_detail;
 
-        public ViewHolder(View view){
+        public ViewHolder(View view) {
             super(view);
-            text_detail=(TextView)view.findViewById(R.id.text_detail);
+            text_detail = (TextView) view.findViewById(R.id.text_detail);
         }
     }
 
-    public RouteDetailAdapter(List<AMapNaviGuide> aMapNaviGuideList){
-        this.aMapNaviGuideList=aMapNaviGuideList;
+    public RouteDetailAdapter(List<AMapNaviGuide> aMapNaviGuideList) {
+        this.aMapNaviGuideList = aMapNaviGuideList;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext())
+        View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.item_detail, parent, false);
-        ViewHolder holder=new ViewHolder(view);
+        ViewHolder holder = new ViewHolder(view);
         return holder;
     }
 
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        AMapNaviGuide guide=aMapNaviGuideList.get(position);
-        StringBuilder stringBuilder=new StringBuilder();
-        if(!guide.getName().equals("无名道路"))
-            stringBuilder.append("沿"+guide.getName());
-        stringBuilder.append("行进"+ MapUtils.getLengthStr(guide.getLength()));
-        if(MapUtils.getActionStr(guide.getIconType())!=null){
-            stringBuilder.append("后"+MapUtils.getActionStr(guide.getIconType()));
+        AMapNaviGuide guide = aMapNaviGuideList.get(position);
+        StringBuilder stringBuilder = new StringBuilder();
+        if (!guide.getName().equals("无名道路"))
+            stringBuilder.append("沿" + guide.getName());
+        stringBuilder.append("行进" + MapUtils.getLengthStr(guide.getLength()));
+        if (MapUtils.getActionStr(guide.getIconType()) != null) {
+            stringBuilder.append("后" + MapUtils.getActionStr(guide.getIconType()));
         }
         holder.text_detail.setText(stringBuilder);
 

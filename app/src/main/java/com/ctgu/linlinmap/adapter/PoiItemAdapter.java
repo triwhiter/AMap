@@ -15,41 +15,43 @@ import com.ctgu.linlinmap.utils.Constants;
 
 import java.util.List;
 
-public class PoiItemAdapter extends RecyclerView.Adapter<PoiItemAdapter.ViewHolder>{
+
+
+public class PoiItemAdapter extends RecyclerView.Adapter<PoiItemAdapter.ViewHolder> {
 
     private List<PoiItem> poiItemList;
     private SearchActivity activity;
 
-    static class ViewHolder extends RecyclerView.ViewHolder{
+    static class ViewHolder extends RecyclerView.ViewHolder {
 
         View poiItemView;
         TextView poiItemName;
         TextView poiItemAddress;
 
-        public ViewHolder(View view){
+        public ViewHolder(View view) {
             super(view);
-            poiItemView=view;
-            poiItemName=(TextView)view.findViewById(R.id.name);
-            poiItemAddress=(TextView)view.findViewById(R.id.address);
+            poiItemView = view;
+            poiItemName = (TextView) view.findViewById(R.id.name);
+            poiItemAddress = (TextView) view.findViewById(R.id.address);
         }
     }
 
-    public PoiItemAdapter(List<PoiItem> poiItemList, SearchActivity activity){
-        this.poiItemList=poiItemList;
-        this.activity=activity;
+    public PoiItemAdapter(List<PoiItem> poiItemList, SearchActivity activity) {
+        this.poiItemList = poiItemList;
+        this.activity = activity;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.item_tip_poi,
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_tip_poi,
                 parent, false);
-        final ViewHolder holder=new ViewHolder(view);
+        final ViewHolder holder = new ViewHolder(view);
         holder.poiItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int position=holder.getAdapterPosition();
-                PoiItem poiItem=poiItemList.get(position);
-                Intent intent=new Intent();
+                int position = holder.getAdapterPosition();
+                PoiItem poiItem = poiItemList.get(position);
+                Intent intent = new Intent();
                 intent.putExtra("resultType", Constants.RESULT_POIITEM);
                 intent.putExtra("result", poiItem);
                 activity.setResult(AppCompatActivity.RESULT_OK, intent);
@@ -61,7 +63,7 @@ public class PoiItemAdapter extends RecyclerView.Adapter<PoiItemAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        PoiItem poiItem=poiItemList.get(position);
+        PoiItem poiItem = poiItemList.get(position);
         holder.poiItemName.setText(poiItem.getTitle());
         holder.poiItemAddress.setText(poiItem.getSnippet());
     }

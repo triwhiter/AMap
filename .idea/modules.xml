@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AMap.iml" filepath="$PROJECT_DIR$/.idea/modules/AMap.iml" group="AMap" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AMap-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AMap-app.iml" group="AMap/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TnboysMap-master.iml" filepath="$PROJECT_DIR$/.idea/modules/TnboysMap-master.iml" group="TnboysMap-master" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="TnboysMap-master/app" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linlinmap.iml" filepath="$PROJECT_DIR$/.idea/modules/linlinmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linlinmap.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linlinmap.app.iml" />
+>>>>>>> 03a377a001a6e9e00fbf94fdccd2439d45d3f370
     </modules>
   </component>
 </project>
