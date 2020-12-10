@@ -1,4 +1,0 @@
-com/example/linlinmap/BuildConfig.java
- com.example.linlinmap.BuildConfig
-com/example/linlinmap/MainActivity.java
- com.example.linlinmap.MainActivity
