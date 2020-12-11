@@ -20,9 +20,9 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/linlinmap"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/linlinmap"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data
@@ -37,6 +37,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.ctgu.linlinmap.WeatherActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name="com.ctgu.linlinmap.RouteActivity"
             android:screenOrientation="portrait"/>
         <activity android:name="com.ctgu.linlinmap.NavigateActivity"

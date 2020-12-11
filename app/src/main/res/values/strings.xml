@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">霖霖地图</string>
+    <string name="no_result">暂无结果</string>
 </resources>

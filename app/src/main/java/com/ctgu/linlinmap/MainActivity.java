@@ -22,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,6 +45,8 @@ import com.amap.api.services.geocoder.RegeocodeResult;
 import com.amap.api.services.help.Tip;
 import com.amap.api.services.poisearch.PoiResult;
 import com.amap.api.services.poisearch.PoiSearch;
+import com.amap.api.services.weather.WeatherSearch;
+import com.amap.api.services.weather.WeatherSearchQuery;
 import com.ctgu.linlinmap.utils.Constants;
 import com.ctgu.linlinmap.utils.MapUtils;
 
@@ -80,6 +83,8 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
     private TextView search=null;  // 搜索框
     private ImageButton menu=null;
     private NavigationView navigationView=null;
+    private ImageButton message = null;
+    private WeatherActivity weatherActivity;
 
 
     @Override
@@ -123,7 +128,6 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
     private void init(){
         initLayout(); //初始化页面
         initMap(); //初始化地图
-
     }
 
 
@@ -157,6 +161,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
         search = (TextView) findViewById(R.id.search);
         menu = (ImageButton) findViewById(R.id.expanded_menu);
+        message =  (ImageButton)findViewById(R.id.message);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.navigate_view);
         navigationView.setCheckedItem(R.id.map_standard);
@@ -177,6 +182,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
         plan.setOnClickListener(this);
         search.setOnClickListener(this);
         menu.setOnClickListener(this);
+        message.setOnClickListener(this);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
@@ -292,7 +298,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
             if (isFirstLocate) {
                 isFirstLocate = false;
                 isFirstLocateFailed = true;
-                Snackbar.make(mapView, "Locate failed. Please check your settings.",
+                Snackbar.make(mapView, "定位错误，请检查您的设置",
                         Snackbar.LENGTH_SHORT).show();
             }
         }
@@ -326,6 +332,9 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
             case R.id.expanded_menu:
                 drawerLayout.openDrawer(GravityCompat.START);
                 break;
+            case R.id.message:
+                WeatherActivity.startActivity(MainActivity.this, city);
+                break;
             default:
         }
     }
@@ -339,7 +348,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
                 if (grantResults.length > 0) {
                     for (int result : grantResults) {
                         if (result != PackageManager.PERMISSION_GRANTED) {
-                            Toast.makeText(MainActivity.this, "You denied the permission",
+                            Toast.makeText(MainActivity.this, "您拒绝了权限请求。",
                                     Toast.LENGTH_SHORT).show();
                             finish();
                             return;
@@ -347,7 +356,7 @@ public class MainActivity extends AppCompatActivity implements AMap.OnPOIClickLi
                     }
                     init();
                 } else {
-                    Toast.makeText(MainActivity.this, "Unknown mistake",
+                    Toast.makeText(MainActivity.this, "请尝试重启。",
                             Toast.LENGTH_SHORT).show();
                     finish();
                 }

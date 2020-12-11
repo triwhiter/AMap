@@ -71,8 +71,8 @@
             android:layout_marginRight="16dp"
 
             android:layout_marginBottom="48dp"
-            android:backgroundTint="@color/bgb"
-            android:src="@drawable/ic_directions_white_48dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_near_me_blue_48dp"
             app:elevation="8dp"
             app:fabSize="normal" />
 

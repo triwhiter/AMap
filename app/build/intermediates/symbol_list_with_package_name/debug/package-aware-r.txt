@@ -774,6 +774,7 @@ drawable ic_menu_blue_48dp
 drawable ic_msg_black_48dp
 drawable ic_my_location_black_48dp
 drawable ic_my_location_blue_48dp
+drawable ic_near_me_blue_48dp
 drawable ic_near_me_white_48dp
 drawable ic_satellite_black_48dp
 drawable ic_search_black_48dp
@@ -805,6 +806,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id Temperature
 id action0
 id action_bar
 id action_bar_activity_content
@@ -887,6 +889,7 @@ id forever
 id ghost_view
 id home
 id homeAsUp
+id humidity
 id icon
 id icon_group
 id ifRoom
@@ -933,6 +936,7 @@ id radio
 id recyclerView_detail
 id recyclerView_route
 id recyclerView_tip
+id reporttime1
 id right
 id right_icon
 id right_side
@@ -1015,6 +1019,8 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id weather
+id wind
 id withText
 id wrap
 id wrap_content
@@ -1058,6 +1064,7 @@ layout activity_main
 layout activity_navigate
 layout activity_route
 layout activity_search
+layout activity_weather
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1101,6 +1108,7 @@ menu map_menu
 mipmap bus_map
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap linlinmap
 mipmap mon_map
 mipmap night_map
 mipmap normal_map
@@ -1137,6 +1145,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
+string no_result
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
