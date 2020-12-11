@@ -71,8 +71,8 @@
             android:layout_marginRight="16dp"
 
             android:layout_marginBottom="48dp"
-            android:backgroundTint="@color/white"
-            android:src="@drawable/ic_near_me_blue_48dp"
+            android:backgroundTint="@color/bgb"
+            android:src="@drawable/ic_fly"
             app:elevation="8dp"
             app:fabSize="normal" />
 
@@ -84,9 +84,6 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="120dp"
-
-
-
             android:src="@drawable/ic_my_location_blue_48dp"
             app:backgroundTint="#FFFFFF"
             app:elevation="8dp"
@@ -135,7 +132,7 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_margin="8dp"
-                    android:background="@drawable/ic_search_black_48dp"
+                    android:background="@drawable/ic_sea"
                     android:scaleType="fitXY" />
 
                 <TextView
@@ -160,7 +157,7 @@
                 android:layout_gravity="top|end"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_msg_black_48dp"
+                android:src="@drawable/ic_weather"
                 app:backgroundTint="#FFFFFF"
                 app:elevation="8dp"
 
@@ -174,7 +171,7 @@
                 android:layout_gravity="bottom|end"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_menu_black_48dp"
+                android:src="@drawable/ic_change"
                 app:backgroundTint="#FFFFFF"
                 app:elevation="8dp"
                 app:fabSize="mini" />

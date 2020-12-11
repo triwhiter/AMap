@@ -767,7 +767,9 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable div_white
+drawable ic_change
 drawable ic_directions_white_48dp
+drawable ic_fly
 drawable ic_map_black_48dp
 drawable ic_menu_black_48dp
 drawable ic_menu_blue_48dp
@@ -777,11 +779,13 @@ drawable ic_my_location_blue_48dp
 drawable ic_near_me_blue_48dp
 drawable ic_near_me_white_48dp
 drawable ic_satellite_black_48dp
+drawable ic_sea
 drawable ic_search_black_48dp
 drawable ic_swap_vert_white_48dp
 drawable ic_traffic_black_48dp
 drawable ic_wa_vert_white_48dp
 drawable ic_wb_incandescent_black_48dp
+drawable ic_weather
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg

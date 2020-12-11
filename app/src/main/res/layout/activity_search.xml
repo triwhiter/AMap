@@ -21,16 +21,13 @@
                 android:id="@+id/search_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="54dp"
-                android:layout_marginLeft="54dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
                 android:layout_marginBottom="8dp"
                 android:background="@color/dark"
                 android:iconifiedByDefault="false"
                 android:maxLines="1"
-                android:queryHint="Enter search content" />
+                />
 
         </FrameLayout>
 

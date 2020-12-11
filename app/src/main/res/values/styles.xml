@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/primary_u</item>
-        <item name="colorPrimaryDark">@color/primary_d</item>
-        <item name="colorAccent">@color/primary_u</item>
+        <item name="colorPrimary">@color/divider</item>
+        <item name="colorPrimaryDark">@color/bgb</item>
+        <item name="colorAccent">@color/bgb</item>
         <item name="android:icon">@color/icons</item>
         <item name="android:divider">@color/divider</item>
     </style>
