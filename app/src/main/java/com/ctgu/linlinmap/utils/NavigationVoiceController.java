@@ -76,7 +76,7 @@ public class NavigationVoiceController implements AMapNaviListener, SynthesizerL
     @Override
     public void onInit(int i) {
         if (i != ErrorCode.SUCCESS) {
-            Toast.makeText(context, "NavigationVoice component init failed.",
+            Toast.makeText(context, "语音播报错误，请检查您的设置。",
                     Toast.LENGTH_SHORT).show();
         }
     }
