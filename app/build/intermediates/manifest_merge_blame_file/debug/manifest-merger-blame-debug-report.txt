@@ -6,132 +6,132 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
+8-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="27" />
-9-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml
+9-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:5-79
-12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:22-76
+12-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:5-76
-13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:22-73
+13-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:8:5-76
+13-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:8:22-73
 14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:5-76
-14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:22-73
+14-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:9:5-76
+14-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:9:22-73
 15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:5-75
-15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:22-72
+15-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:10:5-75
+15-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:10:22-72
 16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:5-81
-16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:22-78
+16-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:11:5-81
+16-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:11:22-78
 17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:5-79
-17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:22-76
+17-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:12:5-79
+17-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:12:22-76
 18    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:5-89
-18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:22-86
+18-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:13:5-89
+18-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:13:22-86
 19    <uses-permission android:name="android.permission.BLUETOOTH" />
-19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:5-68
-19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:22-65
+19-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:14:5-68
+19-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:14:22-65
 20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:5-74
-20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:22-71
+20-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:15:5-74
+20-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:15:22-71
 21    <uses-permission android:name="android.permission.WAKE_LOCK" />
-21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:5-67
-21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:22-65
+21-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:16:5-67
+21-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:16:22-65
 22    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
 23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-70
-23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:22-68
+23-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:18:5-70
+23-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:18:22-68
 24    <!-- 外存储写权限，构建语法需要用到此权限 -->
 25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:20:5-80
-25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:20:22-78
+25-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:20:5-80
+25-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:20:22-78
 26    <!-- 外存储读权限，构建语法需要用到此权限 -->
 27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:5-79
-27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:22-77
+27-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:22:5-79
+27-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:22:22-77
 28
 29    <application
-29-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:5-52:19
+29-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:24:5-52:19
 30        android:allowBackup="false"
-30-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-36
+30-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:25:9-36
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:icon="@mipmap/logo"
-33-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-36
+33-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:26:9-36
 34        android:label="@string/app_name"
-34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-41
+34-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:27:9-41
 35        android:roundIcon="@mipmap/logo"
-35-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:9-41
+35-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:28:9-41
 36        android:supportsRtl="true"
-36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:9-35
+36-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:29:9-35
 37        android:testOnly="true"
 38        android:theme="@style/AppTheme" >
-38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:9-40
+38-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:30:9-40
 39        <meta-data
-39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:31:9-33:63
+39-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:31:9-33:63
 40            android:name="com.amap.api.v2.apikey"
-40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:13-50
+40-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:32:13-50
 41            android:value="b9441ce996c021c9eca558b8815d5cbb" />
-41-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:33:13-61
+41-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:33:13-61
 42
 43        <activity
-43-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:9-42:20
+43-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:35:9-42:20
 44            android:name="com.ctgu.linlinmap.MainActivity"
-44-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:19-65
+44-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:35:19-65
 45            android:screenOrientation="portrait" >
-45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:36:13-49
+45-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:36:13-49
 46            <intent-filter>
-46-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:13-41:29
+46-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:37:13-41:29
 47                <action android:name="android.intent.action.MAIN" />
-47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:38:17-69
-47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:38:25-66
+47-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:38:17-69
+47-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:38:25-66
 48
 49                <category android:name="android.intent.category.LAUNCHER" />
-49-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:17-77
-49-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:27-74
+49-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:40:17-77
+49-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:40:27-74
 50            </intent-filter>
 51        </activity>
 52        <activity
-52-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:9-44:51
+52-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:43:9-44:51
 53            android:name="com.ctgu.linlinmap.WeatherActivity"
-53-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:19-68
+53-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:43:19-68
 54            android:screenOrientation="portrait" />
-54-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:13-49
+54-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:44:13-49
 55        <activity
-55-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:9-46:51
+55-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:45:9-46:51
 56            android:name="com.ctgu.linlinmap.RouteActivity"
-56-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:19-66
+56-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:45:19-66
 57            android:screenOrientation="portrait" />
-57-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:13-49
+57-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:46:13-49
 58        <activity
-58-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:47:9-48:51
+58-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:47:9-48:51
 59            android:name="com.ctgu.linlinmap.NavigateActivity"
-59-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:47:19-69
+59-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:47:19-69
 60            android:screenOrientation="portrait" />
-60-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:48:13-49
+60-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:48:13-49
 61        <activity
-61-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:49:9-50:61
+61-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:49:9-50:61
 62            android:name="com.ctgu.linlinmap.SearchActivity"
-62-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:49:19-67
+62-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:49:19-67
 63            android:screenOrientation="portrait" />
-63-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:50:13-49
+63-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:50:13-49
 64
 65        <service android:name="com.amap.api.location.APSService" />
-65-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:51:9-76
-65-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:51:18-65
+65-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:51:9-76
+65-->D:\tricode\AndroidStudioProjects\linlinmap\app\src\main\AndroidManifest.xml:51:18-65
 66
 67        <meta-data
-67-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+67-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\lenovod\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
 68            android:name="android.arch.lifecycle.VERSION"
-68-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
+68-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\lenovod\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
 69            android:value="27.0.0-SNAPSHOT" />
-69-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
+69-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\lenovod\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
 70    </application>
 71
 72</manifest>

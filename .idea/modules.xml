@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linlinmap.iml" filepath="$PROJECT_DIR$/.idea/modules/linlinmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="linlinmap/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linlinmap.iml" filepath="$PROJECT_DIR$/.idea/modules/linlinmap.iml" group="linlinmap" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linlinmap.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linlinmap.app.iml" />
     </modules>
   </component>
