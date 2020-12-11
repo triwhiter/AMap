@@ -23,9 +23,9 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/linlinmap"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/linlinmap"
+        android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <meta-data

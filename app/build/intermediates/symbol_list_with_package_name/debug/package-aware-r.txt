@@ -1113,6 +1113,7 @@ mipmap bus_map
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap linlinmap
+mipmap logo
 mipmap mon_map
 mipmap night_map
 mipmap normal_map

@@ -13,125 +13,125 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:5-67
 11-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:5:22-64
-12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:6:5-81
-12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:6:22-78
-13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:5-79
-13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:22-77
-14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:5-79
-14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:22-76
-15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:5-76
-15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:22-73
-16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:5-76
-16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:22-73
-17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:5-75
-17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:22-72
-18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:5-81
-18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:22-78
-19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:5-79
-19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:22-76
-20    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:5-89
-20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:22-86
-21    <uses-permission android:name="android.permission.BLUETOOTH" />
-21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:5-68
-21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:22-65
-22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-22-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:5-74
-22-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:22-71
-23    <uses-permission android:name="android.permission.WAKE_LOCK" />
-23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:5-67
-23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:17:22-65
-24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-70
-24-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:22-68
-25    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:19:5-72
-25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:19:22-70
-26
-27    <application
-27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:21:5-49:19
-28        android:allowBackup="false"
-28-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:9-36
-29        android:debuggable="true"
-30        android:extractNativeLibs="false"
-31        android:icon="@mipmap/linlinmap"
-31-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:23:9-41
-32        android:label="@string/app_name"
-32-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:9-41
-33        android:roundIcon="@mipmap/linlinmap"
-33-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-46
-34        android:supportsRtl="true"
-34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-35
-35        android:testOnly="true"
-36        android:theme="@style/AppTheme" >
-36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-40
-37        <meta-data
-37-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:9-30:63
-38            android:name="com.amap.api.v2.apikey"
-38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:13-50
-39            android:value="b9441ce996c021c9eca558b8815d5cbb" /> <!-- input your amap key -->
-39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:13-61
-40
-41        <activity
-41-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:9-39:20
-42            android:name="com.ctgu.linlinmap.MainActivity"
-42-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:19-65
-43            android:screenOrientation="portrait" >
-43-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:33:13-49
-44            <intent-filter>
-44-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:34:13-38:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:17-69
-45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:17-77
-47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:27-74
-48            </intent-filter>
-49        </activity>
-50        <activity
-50-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:9-41:51
-51            android:name="com.ctgu.linlinmap.WeatherActivity"
-51-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:19-68
-52            android:screenOrientation="portrait" />
-52-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:41:13-49
-53        <activity
-53-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:42:9-43:51
-54            android:name="com.ctgu.linlinmap.RouteActivity"
-54-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:42:19-66
-55            android:screenOrientation="portrait" />
-55-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:13-49
-56        <activity
-56-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:9-45:51
-57            android:name="com.ctgu.linlinmap.NavigateActivity"
-57-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:19-69
-58            android:screenOrientation="portrait" />
-58-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:13-49
-59        <activity
-59-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:9-47:61
-60            android:name="com.ctgu.linlinmap.SearchActivity"
-60-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:19-67
-61            android:screenOrientation="portrait" />
-61-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:47:13-49
-62
-63        <service android:name="com.amap.api.location.APSService" />
-63-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:48:9-76
-63-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:48:18-65
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:5-76
+13-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:5-76
+14-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:5-75
+15-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:5-81
+16-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:5-79
+17-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:5-89
+18-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:13:22-86
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:5-68
+19-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:5-74
+20-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:15:22-71
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:5-67
+21-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:16:22-65
+22    <!-- 获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:5-70
+23-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:18:22-68
+24    <!-- 外存储写权限，构建语法需要用到此权限 -->
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:20:5-80
+25-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:20:22-78
+26    <!-- 外存储读权限，构建语法需要用到此权限 -->
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:5-79
+27-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:22:22-77
+28
+29    <application
+29-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:24:5-52:19
+30        android:allowBackup="false"
+30-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:25:9-36
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/logo"
+33-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:26:9-36
+34        android:label="@string/app_name"
+34-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:27:9-41
+35        android:roundIcon="@mipmap/logo"
+35-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:28:9-41
+36        android:supportsRtl="true"
+36-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:29:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:30:9-40
+39        <meta-data
+39-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:31:9-33:63
+40            android:name="com.amap.api.v2.apikey"
+40-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:32:13-50
+41            android:value="b9441ce996c021c9eca558b8815d5cbb" />
+41-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:33:13-61
+42
+43        <activity
+43-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:9-42:20
+44            android:name="com.ctgu.linlinmap.MainActivity"
+44-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:35:19-65
+45            android:screenOrientation="portrait" >
+45-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:36:13-49
+46            <intent-filter>
+46-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:37:13-41:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:38:17-69
+47-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:38:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:17-77
+49-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:40:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:9-44:51
+53            android:name="com.ctgu.linlinmap.WeatherActivity"
+53-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:43:19-68
+54            android:screenOrientation="portrait" />
+54-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:44:13-49
+55        <activity
+55-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:9-46:51
+56            android:name="com.ctgu.linlinmap.RouteActivity"
+56-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:45:19-66
+57            android:screenOrientation="portrait" />
+57-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:46:13-49
+58        <activity
+58-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:47:9-48:51
+59            android:name="com.ctgu.linlinmap.NavigateActivity"
+59-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:47:19-69
+60            android:screenOrientation="portrait" />
+60-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:48:13-49
+61        <activity
+61-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:49:9-50:61
+62            android:name="com.ctgu.linlinmap.SearchActivity"
+62-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:49:19-67
+63            android:screenOrientation="portrait" />
+63-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:50:13-49
 64
-65        <meta-data
-65-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
-66            android:name="android.arch.lifecycle.VERSION"
-66-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
-67            android:value="27.0.0-SNAPSHOT" />
-67-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
-68    </application>
-69
-70</manifest>
+65        <service android:name="com.amap.api.location.APSService" />
+65-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:51:9-76
+65-->D:\androidwork\linlinmap\app\src\main\AndroidManifest.xml:51:18-65
+66
+67        <meta-data
+67-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+68            android:name="android.arch.lifecycle.VERSION"
+68-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
+69            android:value="27.0.0-SNAPSHOT" />
+69-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Alin\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
+70    </application>
+71
+72</manifest>
